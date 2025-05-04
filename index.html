@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreeya Srivastava</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: #f4e9ff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 20px;
+    }
+
+    .intro-line {
+      font-size: 2.4rem;
+      margin-bottom: 12px;
+      opacity: 0;
+      animation: fadeInUp 1s forwards;
+    }
+
+    .intro-line:nth-child(2) {
+      animation-delay: 1s;
+    }
+
+    .intro-line:nth-child(3) {
+      animation-delay: 2s;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    nav {
+      margin-top: 20px;
+      text-align: center;
+      animation: fadeIn 3s ease-in-out forwards;
+    }
+
+    nav a {
+      color: #d7bfff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.2rem;
+      padding: 10px 18px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .page-section {
+      padding: 60px 20px 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 80vh;
+    }
+
+    .section-box {
+      background-color: rgba(255, 255, 255, 0.04);
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(221, 189, 255, 0.4);
+      max-width: 800px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .section-box h2 {
+      font-size: 2.2rem;
+      color: #e0b3ff;
+      margin-bottom: 20px;
+    }
+
+    .section-box p, .section-box li {
+      font-size: 1.3rem;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.5em;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .mini-box {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      margin-top: 15px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(200, 170, 255, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="intro-line">Hello, I'm <strong>Shreeya Srivastava</strong></div>
+    <div class="intro-line">Roll No: 27166</div>
+    <div class="intro-line">Branch: CSE-3</div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#connect">Connect</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
+
+  <section id="about" class="page-section">
+    <div class="section-box">
+      <h2>About Me</h2>
+      <div class="mini-box">
+        <p>Hi! I'm Shreeya Srivastava, an aspiring engineer passionate about building a future in tech. I enjoy coding, learning, and taking on challenges.</p>
+      </div>
+      <div class="mini-box">
+        <p><strong>Strengths:</strong></p>
+        <ul>
+          <li>Creative</li>
+          <li>Adaptive</li>
+          <li>Cheerful</li>
+          <li>Quick learner</li>
+        </ul>
+      </div>
+      <div class="mini-box">
+        <p><strong>Weaknesses:</strong></p>
+        <ul>
+          <li>Lack of confidence</li>
+          <li>Stage fear</li>
+          <li>Anxiety</li>
+        </ul>
+      </div>
+      <div class="mini-box">
+        <p><strong>Hobbies:</strong></p>
+        <ul>
+          <li>Painting</li>
+          <li>Cooking</li>
+          <li>Photography</li>
+          <li>Content creation</li>
+          <li>Dance</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="page-section">
+    <div class="section-box">
+      <h2>Skills</h2>
+      <ul>
+        <li>Frontend: HTML, CSS, JavaScript</li>
+        <li>Tools: Git, GitHub, VS Code</li>
+        <li>Languages: Python, C</li>
+        <li>Design: Canva, Figma, Adobe (Basics)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="page-section">
+    <div class="section-box">
+      <h2>Projects</h2>
+      <p>🚀 Coming soon! My personal projects and contributions will be displayed here. Stay tuned!</p>
+    </div>
+  </section>
+
+  <section id="connect" class="page-section">
+    <div class="section-box">
+      <h2>Connect With Me</h2>
+      <p>
+        📸 <a href="https://www.instagram.com/shreeyaslayss/?next=%2F&hl=en" target="_blank" style="color: #ffb3ec;">Instagram</a> |
+        💼 <a href="https://www.linkedin.com/in/shreeya-srivastava-269319333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="color: #a3f3ff;">LinkedIn</a> |
+   
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="page-section">
+    <div class="section-box">
+      <h2>Contact Me</h2>
+      <p>Email: your-email@example.com</p>
+    </div>
+  </section>
+</body>
+</html>
